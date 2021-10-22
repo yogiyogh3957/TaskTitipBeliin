@@ -1,20 +1,22 @@
-from flask import render_template, request, Blueprint, redirect, url_for
+from flask import  render_template, request, Blueprint, redirect, url_for
 from forms import CreateUrlForm
 from blogpost.Scrapping import GetImage
 from urllib.parse import urlparse
 
+
 home = Blueprint('home', __name__)
 scrap = GetImage()
+
 @home.route("/", methods=["GET", "POST"])
 def homepage():
-    scrap.data_list = []
+
     form = CreateUrlForm()
     if form.validate_on_submit() :
-        url = form.product_url.data
 
+        url = form.product_url.data
         url_netloc = urlparse(url).netloc
         print(url_netloc)
-
+        scrap.data_list = []
         if url_netloc == "www.ebay.com":
             scrap.getEbay(url)
 
@@ -30,7 +32,17 @@ def productpage(url):
 
     data_list = scrap.data_list
     print(data_list)
-    return render_template('showproducts.html', url=url, data_list=data_list)
+    try:
+        return render_template('showproducts.html', url=url, data_list=data_list)
+    except Exception as e:
+	    return(str(e))
+
+@home.errorhandler(404)
+def page_not_found(e):
+    return render_template("errors/404.html")
+
+
+
 
 
 

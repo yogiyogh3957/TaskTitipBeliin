@@ -1,14 +1,6 @@
 /* This CSS file will need to be added to the styling of
 your web pages for the styles to be rendered. */
 
-body {
-background-color: #333;
-color: red;
-}
-
-a {
-    color: #ffc107;
-}
 
 .jumbotron {
   display: flex;
@@ -16,20 +8,8 @@ a {
   margin: 0;
   padding-bottom: 200px;
   height: 100vh;
-  color: white;
-  background-color: #cc9b6d;
-
-  background-size: cover;
-}
-
-.jumbotron2 {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding-bottom: 100px;
-  height: 100vh;
-  color: white;
-  background-color: #cc9b6d;
+  color: #b22fbb;
+  background-color: #b22fbb;
 
   background-size: cover;
 }
@@ -50,10 +30,6 @@ a {
     color: #fff;
     background-color: #f0ad4e;
     border-color: #eea236;
-}
-
-.row {
-    align-items:
 }
 
 .navbar{

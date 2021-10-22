@@ -1,5 +1,4 @@
 {% extends 'bootstrap/base.html' %}
-{% include "header.html" %}
 {% import "bootstrap/wtf.html" as wtf %}
 
 {% block styles %}
@@ -14,13 +13,16 @@
 <div class="jumbotron text-center">
 
         <div class="container">
-          <h1 class="display-4">☕️ IMAGE COLORS DETECTOR 💻</h1>
-          <p class="lead">Upload Your Image and Get Your Color.</p>
+          <h1 class="display-4">☕️ TitipBeli 💻</h1>
+          <p class="lead">Upload Your URL from Amazon or Ebay.</p>
           <hr class="my-4">
           <p>by :yogi ananta putra</p>
 
             <br>
             {{ wtf.quick_form(form, novalidate=True, button_map={"submit": "primary"}) }}
+
+         </div>
+
 
         </div>
 

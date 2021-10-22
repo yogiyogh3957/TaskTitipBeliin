@@ -4,12 +4,12 @@ from flask_bootstrap import Bootstrap
 from blogpost.config import Config
 
 login_manager = LoginManager()
-bootstrap = Bootstrap()
+
 
 def create_app(config_class=Config):
     app = Flask(__name__)
     app.config.from_object(Config)
-    bootstrap.init_app(app)
+    Bootstrap(app)
 
 
     from blogpost.home.routes import home
