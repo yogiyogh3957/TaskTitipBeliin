@@ -7,6 +7,7 @@ home = Blueprint('home', __name__)
 scrap = GetImage()
 @home.route("/", methods=["GET", "POST"])
 def homepage():
+    scrap.data_list = []
     form = CreateUrlForm()
     if form.validate_on_submit() :
         url = form.product_url.data

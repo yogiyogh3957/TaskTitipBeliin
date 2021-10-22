@@ -11,7 +11,6 @@ class GetImage():
    def __init__(self):
        self.data_list = []
 
-
    def getAmazon(self, url):
        response = requests.get(url=url, headers=headers)
        amazon_web_text = response.text
@@ -35,7 +34,27 @@ class GetImage():
 
 
    def getEbay(self, url):
-       pass
+       response = requests.get(url=url, headers=headers)
+       ebay_web_text = response.text
+       soup = BeautifulSoup(ebay_web_text, "lxml")
+
+       data_price = soup.find("span", id='prcIsum')
+       price = float(data_price.getText().split("$")[1])
+       print(price)
+
+       data_image = soup.find("img", id="icImg")
+       image = data_image['src']
+       print(image)
+
+       data_title = soup.find('h1', id='itemTitle').getText().split(" ")
+       title_product = ""
+       for x in range(4, len(data_title)):
+           title_product+= data_title[x] + " "
+       print(title_product)
+
+       self.data_list.append(price)
+       self.data_list.append(image)
+       self.data_list.append(title_product)
 
 
 
