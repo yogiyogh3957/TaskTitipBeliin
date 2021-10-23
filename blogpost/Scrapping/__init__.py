@@ -16,7 +16,7 @@ class GetImage():
    def getAmazon(self, url):
        response = requests.get(url=url, headers=headers)
        amazon_web_text = response.text
-       soup = BeautifulSoup(amazon_web_text, "html.parser")
+       soup = BeautifulSoup(amazon_web_text, "lxml")
 
 
        try:
