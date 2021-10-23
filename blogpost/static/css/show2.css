@@ -1,0 +1,21 @@
+body {
+    background-color: #2f8abb;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 33% 33%;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+.column.column--left {
+  grid-row: 1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -3,7 +3,6 @@ from forms import CreateUrlForm
 from blogpost.Scrapping import GetImage
 from urllib.parse import urlparse
 
-
 home = Blueprint('home', __name__)
 scrap = GetImage()
 
@@ -32,15 +31,15 @@ def productpage(url):
 
     data_list = scrap.data_list
     print(data_list)
-    try:
-        return render_template('showproducts.html', url=url, data_list=data_list)
-    except Exception as e:
-	    return(str(e))
 
-@home.errorhandler(404)
-def page_not_found(e):
-    return render_template("errors/404.html")
+    return render_template('showproducts.html', url=url, data_list=data_list)
 
+@home.route("/show2")
+def show2():
+
+
+
+    return render_template('show2.html')
 
 
 
