@@ -24,6 +24,9 @@ def homepage():
             scrap.getAmazon(url)
             return redirect(url_for('home.productpage', url=url))
 
+        else:
+            return render_template("erorrrrrr.html")
+
 
     return render_template('index.html', form=form)
 

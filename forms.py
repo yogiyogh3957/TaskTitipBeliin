@@ -4,6 +4,6 @@ from wtforms.validators import DataRequired, URL
 
 ##WTForm
 class CreateUrlForm(FlaskForm):
-    product_url = StringField("Blog Image URL", validators=[DataRequired(), URL()])
-    submit = SubmitField("Submit Post")
+    product_url = StringField("Insert URL Here", validators=[DataRequired(), URL()])
+    submit = SubmitField("Submit URL")
 
