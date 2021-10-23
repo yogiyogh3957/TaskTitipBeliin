@@ -7,6 +7,9 @@ headers = {
     "Accept-Language": "en-us"
 }
 
+proxies = { 'http': "http://116.73.14.16:8080",
+            'https': "https://121.139.218.165:31409"}
+
 class GetImage():
 
    def __init__(self):
@@ -14,7 +17,7 @@ class GetImage():
        self.data_list = []
 
    def getAmazon(self, url):
-       response = requests.get(url=url, headers=headers)
+       response = requests.get(url=url, headers=headers, proxies=proxies)
        amazon_web_text = response.text
        soup = BeautifulSoup(amazon_web_text, "html.parser")
 
@@ -66,7 +69,7 @@ class GetImage():
    def getEbay(self, url):
        response = requests.get(url=url, headers=headers)
        ebay_web_text = response.text
-       soup = BeautifulSoup(ebay_web_text, "lxml")
+       soup = BeautifulSoup(ebay_web_text, "html.parser")
 
        try:
            data_price = soup.find("span", id='prcIsum')
