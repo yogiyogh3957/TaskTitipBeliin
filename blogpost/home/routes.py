@@ -3,6 +3,7 @@ from forms import CreateUrlForm
 from blogpost.Scrapping import GetImage
 from urllib.parse import urlparse
 
+
 home = Blueprint('home', __name__)
 scrap = GetImage()
 

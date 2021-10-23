@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import urllib.request
 
 
 headers = {
@@ -14,7 +15,7 @@ class GetImage():
        self.data_list = []
 
    def getAmazon(self, url):
-       response = requests.get(url=url, headers=headers)
+       response = urllib.request.get(url=url, headers=headers)
        amazon_web_text = response.text
        soup = BeautifulSoup(amazon_web_text, "html.parser")
 
