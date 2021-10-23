@@ -18,28 +18,27 @@ def homepage():
         scrap.data_list = []
         if url_netloc == "www.ebay.com":
             scrap.getEbay(url)
+            return redirect(url_for('home.productpage', url=url))
 
         if url_netloc == "www.amazon.com":
             scrap.getAmazon(url)
             return redirect(url_for('home.productpage', url=url))
 
-        return redirect(url_for('home.productpage', url=url))
+
     return render_template('index.html', form=form)
 
-@home.route("/product/<path:url>")
+@home.route("/product/<path:url>", methods=['POST', 'GET'])
 def productpage(url):
 
     data_list = scrap.data_list
+    if len(data_list) == 0 :
+        data_list = scrap.notfound
+    else:
+        data_list = scrap.data_list
     print(data_list)
 
-    return render_template('showproducts.html', url=url, data_list=data_list)
+    return render_template('show2.html', url=url, data_list=data_list)
 
-@home.route("/show2")
-def show2():
-
-
-
-    return render_template('show2.html')
 
 
 
