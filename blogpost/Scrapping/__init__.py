@@ -8,7 +8,7 @@ headers = {
 }
 
 proxies = { 'http': "http://116.73.14.16:8080",
-            'https': "https://121.139.218.165:31409"}
+            'https': "https://121.139.218.165:31409",}
 
 class GetImage():
 
@@ -17,7 +17,8 @@ class GetImage():
        self.data_list = []
 
    def getAmazon(self, url):
-       response = requests.get(url=url, headers=headers, proxies=proxies, timeout=30)
+                                                        #DELETE PROXIES IF RUNNING LOCALY
+       response = requests.get(url=url, headers=headers, proxies=proxies, timeout=None)
        amazon_web_text = response.text
        soup = BeautifulSoup(amazon_web_text, "html.parser")
 
@@ -83,7 +84,7 @@ class GetImage():
                    data_price = soup.find("span", id='mm-saleDscPrc')
                    price = data_price.getText()
                except AttributeError :
-                   self.data_list = self.notfound
+                   price = None
 
        try:
            data_image = soup.find("img", id="icImg")
