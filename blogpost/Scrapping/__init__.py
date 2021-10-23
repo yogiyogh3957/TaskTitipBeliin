@@ -17,7 +17,7 @@ class GetImage():
        self.data_list = []
 
    def getAmazon(self, url):
-       response = requests.get(url=url, headers=headers, proxies=proxies)
+       response = requests.get(url=url, headers=headers, proxies=proxies, timeout=30)
        amazon_web_text = response.text
        soup = BeautifulSoup(amazon_web_text, "html.parser")
 
