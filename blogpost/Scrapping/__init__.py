@@ -1,5 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
+import time
+import random
 
 
 headers = {
@@ -7,8 +9,7 @@ headers = {
     "Accept-Language": "en-us"
 }
 
-proxies = { 'http': "http://52.185.165.115:8000",
-            'https': "https://197.255.52.214:8081",}
+proxies = {'https': "https://80.59.199.213:8080",}
 
 class GetImage():
 
@@ -17,11 +18,10 @@ class GetImage():
        self.data_list = []
 
    def getAmazon(self, url):
-                                                        #Set proxies=None IF RUNNING LOCAL
-       response = requests.get(url=url, headers=headers)
+
+       response = requests.get(url=url, headers=headers, proxies=proxies)
        amazon_web_text = response.text
        soup = BeautifulSoup(amazon_web_text, "html.parser")
-
 
        try:
             data_price = soup.find("span", id="price_inside_buybox")
@@ -31,6 +31,7 @@ class GetImage():
            price = data_price
        except TypeError :
            price = None
+       time.sleep(random.randint(1, 10))
 
        try:
             data_image = soup.find("img", id="landingImage")
@@ -42,7 +43,7 @@ class GetImage():
             except TypeError :
                 image = None
        # print(image)
-
+       time.sleep(random.randint(1, 10))
 
        try:
             data_title = soup.find('h1', id='title')
@@ -54,7 +55,7 @@ class GetImage():
            except AttributeError :
                 title_product = None
        # print(title_product)
-
+       time.sleep(random.randint(1, 10))
        if price == None and image == None and title_product == None :
             self.data_list = self.notfound
        # print(price)

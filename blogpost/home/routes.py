@@ -18,12 +18,10 @@ def homepage():
         print(url_netloc)
 
         if url_netloc == "www.ebay.com":
-
             scrap.getEbay(url)
             return redirect(url_for('home.productpage', url=url))
 
         if url_netloc == "www.amazon.com":
-
             scrap.getAmazon(url)
             return redirect(url_for('home.productpage', url=url))
 
