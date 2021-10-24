@@ -94,6 +94,7 @@ class GetImage():
            image = None
        except TypeError :
            image = None
+
        # print(image)
 
 
