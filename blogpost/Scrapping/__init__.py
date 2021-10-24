@@ -20,7 +20,7 @@ class GetImage():
 
    def getAmazon(self, url):
 
-       response = requests.get(url=url, headers=headers, proxies=proxies, verify=False)
+       response = requests.get(url=url, headers=headers, proxies=proxies)
        amazon_web_text = response.text
        soup = BeautifulSoup(amazon_web_text, "html.parser")
 
