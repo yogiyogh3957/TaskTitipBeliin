@@ -13,7 +13,7 @@ proxies = { 'http': "http://52.185.165.115:8000",
 class GetImage():
 
    def __init__(self):
-       self.notfound = ["not found", "https://images.bizlaw.id/gbr_artikel/images-2_294.webp", "Not Found title"]
+       self.notfound = ["no Price", "https://images.bizlaw.id/gbr_artikel/images-2_294.webp", "Not Found title"]
        self.data_list = []
 
    def getAmazon(self, url):
@@ -100,7 +100,6 @@ class GetImage():
            for x in range(4, len(data_title)):
                title_product+= data_title[x] + " "
        except AttributeError :
-
            title_product = None
        # print(title_product)
 

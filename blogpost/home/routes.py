@@ -35,7 +35,7 @@ def homepage():
 
 @home.route("/product/<path:url>", methods=['POST', 'GET'])
 def productpage(url):
-
+    print(scrap.data_list)
     if len(scrap.data_list) == 0 :
         scrap.data_list = scrap.notfound
 
