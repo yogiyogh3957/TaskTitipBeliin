@@ -92,6 +92,8 @@ class GetImage():
            image = data_image['src']
        except AttributeError :
            image = None
+       except TypeError :
+           image = None
        # print(image)
 
 
