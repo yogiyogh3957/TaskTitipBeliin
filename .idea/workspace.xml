@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef4e5821-df39-4bff-855d-e7765d3b523e" name="Changes" comment="tes push (error gabisa push gara2 add file dari reponya)">
+      <change afterPath="$PROJECT_DIR$/AmazonTestingResult.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EbayTestingResult.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogpost/Scrapping/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogpost/Scrapping/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
