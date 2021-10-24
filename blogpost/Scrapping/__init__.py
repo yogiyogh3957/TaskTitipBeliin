@@ -2,7 +2,8 @@ from bs4 import BeautifulSoup
 import requests
 import time
 import random
-
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15",
