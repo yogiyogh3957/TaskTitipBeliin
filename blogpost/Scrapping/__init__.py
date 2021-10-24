@@ -7,8 +7,8 @@ headers = {
     "Accept-Language": "en-us"
 }
 
-proxies = { 'http': "http://116.73.14.16:8080",
-            'https': "https://121.139.218.165:31409",}
+proxies = { 'http': "http://45.148.232.35:8085",
+            'https': "https://194.87.52.159:8085",}
 
 class GetImage():
 
@@ -18,7 +18,7 @@ class GetImage():
 
    def getAmazon(self, url):
                                                         #DELETE PROXIES IF RUNNING LOCALY
-       response = requests.get(url=url, headers=headers, proxies=proxies, timeout=None)
+       response = requests.get(url=url, headers=headers, proxies=None, timeout=10)
        amazon_web_text = response.text
        soup = BeautifulSoup(amazon_web_text, "html.parser")
 
