@@ -91,7 +91,7 @@ class GetImage():
            data_image = soup.find("img", id="icImg")
            image = data_image['src']
        except AttributeError :
-           image = None \
+           image = None
        except TypeError :
            image = None
 

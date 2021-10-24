@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef4e5821-df39-4bff-855d-e7765d3b523e" name="Changes" comment="tes push (error gabisa push gara2 add file dari reponya)">
+      <change beforePath="$PROJECT_DIR$/blogpost/Scrapping/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogpost/Scrapping/__init__.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1zo2QBvNyTDZ2JRiFRq7CcIAQvn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/blogpost/templates" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/blogpost" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blogpost/templates" />
+      <recent name="$PROJECT_DIR$/blogpost/static" />
+      <recent name="$PROJECT_DIR$/blogpost/static/css" />
+      <recent name="$PROJECT_DIR$/blogpost" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="TaskTitipBeliin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef4e5821-df39-4bff-855d-e7765d3b523e" name="Changes" comment="" />
+      <created>1634800101825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634800101825</updated>
+      <workItem from="1634800104347" duration="74577000" />
+    </task>
+    <task id="LOCAL-00001" summary="1st commit">
+      <created>1634865958391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634865958391</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add function for scrapping amazon site, and tested showing the data(title, price, urlimage) in showproducts.html">
+      <created>1634871531060</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634871531060</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add function for scrapping ((EBAY)) site, and tested showing the data(title, price, urlimage) in showproducts.html + SHOW PICTURE">
+      <created>1634872841504</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634872841504</updated>
+    </task>
+    <task id="LOCAL-00004" summary="editing HTML and Handling Exception getAmazon data when handling various format from url">
+      <created>1634908436688</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634908436688</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Handling Exception getEbay">
+      <created>1634958958224</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634958958224</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test apakah harus commit git untuk update css">
+      <created>1634959347855</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1634959347855</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixing HTML CSS">
+      <created>1634965176471</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634965176471</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Finishing HTML/CSS, ready to deploy">
+      <created>1634969852899</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634969852899</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add config to deploying app to heroku">
+      <created>1635026666908</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1635026666908</updated>
+    </task>
+    <task id="LOCAL-00010" summary="change name app on config Procfile">
+      <created>1635026776400</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1635026776400</updated>
+    </task>
+    <task id="LOCAL-00011" summary="deploying">
+      <created>1635027246516</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1635027246516</updated>
+    </task>
+    <task id="LOCAL-00012" summary="deploying2">
+      <created>1635027666483</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635027666483</updated>
+    </task>
+    <task id="LOCAL-00013" summary="bs4.FeatureNotFound: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?&#10;&#10;so i changed lxml to html.parser in bs4 config">
+      <created>1635027917957</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1635027917957</updated>
+    </task>
+    <task id="LOCAL-00014" summary="bs4 work, but no file found(but work in localy), so i try use urllib.request instead request.get">
+      <created>1635028527695</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1635028527695</updated>
+    </task>
+    <task id="LOCAL-00015" summary="back to requestget">
+      <created>1635028930535</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1635028930535</updated>
+    </task>
+    <task id="LOCAL-00016" summary="all work but no data get(work in local) - fix_1">
+      <created>1635029252984</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1635029252984</updated>
+    </task>
+    <task id="LOCAL-00017" summary="all work but no data get(work in local) - fix_2">
+      <created>1635029492407</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1635029492407</updated>
+    </task>
+    <task id="LOCAL-00018" summary="all work but no data get(work in local) - fix_3">
+      <created>1635029728201</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1635029728201</updated>
+    </task>
+    <task id="LOCAL-00019" summary="all work but no data get(work in local) - fix_4">
+      <created>1635029936402</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1635029936402</updated>
+    </task>
+    <task id="LOCAL-00020" summary="all work but no data get(work in local) - fix_4(try add proxies)">
+      <created>1635030311364</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1635030311364</updated>
+    </task>
+    <task id="LOCAL-00021" summary="all work but no data get(work in local) (try add proxies) -- fix_5">
+      <created>1635031273333</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1635031273333</updated>
+    </task>
+    <task id="LOCAL-00022" summary="all work but no data get(work in local) (try add proxies) -- fix_6">
+      <created>1635032644016</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1635032644016</updated>
+    </task>
+    <task id="LOCAL-00023" summary="all work but no data get(work in local) (try add proxies) - free trial proxy -- fix_7">
+      <created>1635035931103</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1635035931103</updated>
+    </task>
+    <task id="LOCAL-00024" summary="all work but no data get(work in local) (try add proxies) - free trial proxy -- fix_8">
+      <created>1635036304051</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1635036304051</updated>
+    </task>
+    <task id="LOCAL-00025" summary="all work but no data get(work in local) (try add proxies) - free trial proxy -- fix_9">
+      <created>1635037783508</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1635037783508</updated>
+    </task>
+    <task id="LOCAL-00026" summary="all work but no data get(work in local) - get anthoer proxies_1">
+      <created>1635039038533</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1635039038533</updated>
+    </task>
+    <task id="LOCAL-00027" summary="all work but no data get(work in local) - get anthoer proxies_1">
+      <created>1635039189875</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1635039189875</updated>
+    </task>
+    <task id="LOCAL-00028" summary="delete proxies params">
+      <created>1635039425184</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1635039425184</updated>
+    </task>
+    <task id="LOCAL-00029" summary="debug1">
+      <created>1635039806070</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1635039806070</updated>
+    </task>
+    <task id="LOCAL-00030" summary="debug1">
+      <created>1635040269984</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1635040269984</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add code print data list  at terminal">
+      <created>1635041404004</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1635041404004</updated>
+    </task>
+    <task id="LOCAL-00032" summary="debug">
+      <created>1635041764366</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1635041764366</updated>
+    </task>
+    <task id="LOCAL-00033" summary="try add another proxies">
+      <created>1635047353615</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1635047353615</updated>
+    </task>
+    <task id="LOCAL-00034" summary="error certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))&#10;&#10;try add&#10;import ssl&#10;ssl._create_default_https_context = ssl._create_unverified_context">
+      <created>1635047552949</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1635047552949</updated>
+    </task>
+    <task id="LOCAL-00035" summary="error certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))&#10;&#10;try add&#10;verify=False">
+      <created>1635048010303</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1635048010303</updated>
+    </task>
+    <task id="LOCAL-00036" summary="error certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))&#10;&#10;try add&#10;verify=True&#10;&#10;install certifi on heroku">
+      <created>1635048630728</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1635048630728</updated>
+    </task>
+    <task id="LOCAL-00037" summary="error certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))&#10;&#10;VERIFY=FALSE">
+      <created>1635049006575</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1635049006575</updated>
+    </task>
+    <task id="LOCAL-00038" summary="FINAL WITH NO PROXY(not work in amazon, sometimes work in ebay)">
+      <created>1635049337688</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1635049337688</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add exception in getEbay, when get non product page.">
+      <created>1635053054127</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1635053054127</updated>
+    </task>
+    <task id="LOCAL-00040" summary="add exception in getEbay, when get non product page.">
+      <created>1635053314486</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1635053314486</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add exception in getEbay, when get non product page.">
+      <created>1635053367036</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1635053367036</updated>
+    </task>
+    <task id="LOCAL-00042" summary="tes push (error gabisa push gara2 add file dari reponya)">
+      <created>1635054528285</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1635054528285</updated>
+    </task>
+    <task id="LOCAL-00043" summary="tes push (error gabisa push gara2 add file dari reponya)">
+      <created>1635064965947</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1635064965947</updated>
+    </task>
+    <task id="LOCAL-00044" summary="tes push (error gabisa push gara2 add file dari reponya)">
+      <created>1635065137627</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1635065137627</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bs4 work, but no file found(but work in localy), so i try use urllib.request instead request.get" />
+    <MESSAGE value="back to requestget" />
+    <MESSAGE value="all work but no data get(work in local) - fix_1" />
+    <MESSAGE value="all work but no data get(work in local) - fix_2" />
+    <MESSAGE value="all work but no data get(work in local) - fix_3" />
+    <MESSAGE value="all work but no data get(work in local) - fix_4" />
+    <MESSAGE value="all work but no data get(work in local) - fix_4(try add proxies)" />
+    <MESSAGE value="all work but no data get(work in local) (try add proxies) -- fix_5" />
+    <MESSAGE value="all work but no data get(work in local) (try add proxies) -- fix_6" />
+    <MESSAGE value="all work but no data get(work in local) (try add proxies) - free trial proxy -- fix_7" />
+    <MESSAGE value="all work but no data get(work in local) (try add proxies) - free trial proxy -- fix_8" />
+    <MESSAGE value="all work but no data get(work in local) (try add proxies) - free trial proxy -- fix_9" />
+    <MESSAGE value="all work but no data get(work in local) - get anthoer proxies_1" />
+    <MESSAGE value="delete proxies params" />
+    <MESSAGE value="debug1" />
+    <MESSAGE value="add code print data list  at terminal" />
+    <MESSAGE value="debug" />
+    <MESSAGE value="try add another proxies" />
+    <MESSAGE value="error certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))&#10;&#10;try add&#10;import ssl&#10;ssl._create_default_https_context = ssl._create_unverified_context" />
+    <MESSAGE value="error certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))&#10;&#10;try add&#10;verify=False" />
+    <MESSAGE value="error certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))&#10;&#10;try add&#10;verify=True&#10;&#10;install certifi on heroku" />
+    <MESSAGE value="error certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))&#10;&#10;VERIFY=FALSE" />
+    <MESSAGE value="FINAL WITH NO PROXY(not work in amazon, sometimes work in ebay)" />
+    <MESSAGE value="add exception in getEbay, when get non product page." />
+    <MESSAGE value="tes push (error gabisa push gara2 add file dari reponya)" />
+    <option name="LAST_COMMIT_MESSAGE" value="tes push (error gabisa push gara2 add file dari reponya)" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TaskTitipBeliin$run.coverage" NAME="run Coverage Results" MODIFIED="1635053082220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
