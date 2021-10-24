@@ -16,12 +16,14 @@ def homepage():
         url = form.product_url.data
         url_netloc = urlparse(url).netloc
         print(url_netloc)
-        scrap.data_list = []
+
         if url_netloc == "www.ebay.com":
+            scrap.data_list = []
             scrap.getEbay(url)
             return redirect(url_for('home.productpage', url=url))
 
         if url_netloc == "www.amazon.com":
+            scrap.data_list = []
             scrap.getAmazon(url)
             return redirect(url_for('home.productpage', url=url))
 
