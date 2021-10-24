@@ -105,7 +105,7 @@ class GetImage():
                title_product+= data_title[x] + " "
        except AttributeError :
            title_product = None
-       # print(title_product)
+       # print(title_productt)
 
        if price == None and image == None and title_product == None :
             self.data_list = self.notfound
