@@ -87,7 +87,6 @@ class GetImage():
                except AttributeError :
                    price = None
 
-
        try:
            data_image = soup.find("img", id="icImg")
            image = data_image['src']
