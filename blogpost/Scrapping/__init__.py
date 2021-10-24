@@ -7,8 +7,8 @@ headers = {
     "Accept-Language": "en-us"
 }
 
-proxies = { 'http': "http://45.148.232.35:8085",
-            'https': "https://194.87.52.159:8085",}
+proxies = { 'http': "http://172.104.60.137:8080",
+            'https': "https://185.221.237.197:3128",}
 
 class GetImage():
 
