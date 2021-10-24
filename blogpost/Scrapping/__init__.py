@@ -18,7 +18,7 @@ class GetImage():
 
    def getAmazon(self, url):
                                                         #DELETE PROXIES IF RUNNING LOCALY
-       response = requests.get(url=url, headers=headers, proxies=proxies, timeout=10)
+       response = requests.get(url=url, headers=headers, proxies=proxies, timeout=None)
        amazon_web_text = response.text
        soup = BeautifulSoup(amazon_web_text, "html.parser")
 
